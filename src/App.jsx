@@ -6,13 +6,13 @@ import Home from "./Home.jsx";
 
 function App() {
   return (
-    <div>
+    <Router>
       <Routes>
         <Route path="Basic_Login_SignUp_Page" element={<Home/>}/>
         <Route path="Basic_Login_SignUp_Page/Login" element={<Login/>}/>
         <Route path="Basic_Login_SignUp_Page/SignUp" element={<SignUp/>}/>
       </Routes>
-    </div>
+    </Router>
   );
 }
 
