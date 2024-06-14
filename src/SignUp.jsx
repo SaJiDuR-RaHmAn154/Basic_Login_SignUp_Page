@@ -42,11 +42,11 @@ function SignUp() {
           <div className="signup">
             <p>
               Already have an account?
-              <a href="/Basic_Login_SignUp_Page/Login">Sign in</a>
+              <a href="/login">Sign in</a>
             </p>
           </div>
         <div className="back1">
-          <a href="/Basic_Login_SignUp_Page/">Back to Home</a>
+          <a href="/">Back to Home</a>
         </div>
         </form>
       </div>

@@ -1,19 +1,11 @@
-import { Route, Routes } from "react-router-dom";
-import Login from "./Login.jsx";
-import SignUp from "./SignUp.jsx";
-import Home from "./Home.jsx";
-
+import { Outlet } from 'react-router-dom'
+import Home from './Home'
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="Basic_Login_SignUp_Page" element={<Home/>}/>
-        <Route path="Basic_Login_SignUp_Page/Login" element={<Login/>}/>
-        <Route path="Basic_Login_SignUp_Page/SignUp" element={<SignUp/>}/>
-      </Routes>
-    </Router>
-  );
+    <>
+    <Outlet/>
+    </>
+  )
 }
-
-export default App;
+export default App

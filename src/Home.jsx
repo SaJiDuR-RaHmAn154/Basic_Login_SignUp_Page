@@ -14,7 +14,7 @@ function Home() {
       <div className="navBar mx-0">
         <Navbar expand="lg" className=" navbar-dark bg-dark py-2 px-4">
           <Container fluid>
-            <Navbar.Brand href="/Basic_Login_SignUp_Page/" className="text-primary">
+            <Navbar.Brand href="/" className="text-primary">
               TechBlog
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
@@ -50,12 +50,12 @@ function Home() {
                   Search
                 </Button>
               </div>
-              <a className="px-2" href="/Basic_Login_SignUp_Page/Login">
+              <a className="px-2" href="/login">
                 <button className="btn btn-sm btn-outline-success text-white rounded">
                   Sign In
                 </button>
               </a>
-              <a href="/Basic_Login_SignUp_Page/SignUp">
+              <a href="/signup">
                 <button className="btn btn-sm btn-outline-success text-white rounded">
                   SignUp
                 </button>

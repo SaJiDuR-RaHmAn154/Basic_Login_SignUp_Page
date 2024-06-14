@@ -28,11 +28,11 @@ function Login() {
           <button type="submit" className="btn2">Sign In</button>
           <div className="signup">
             <p>
-              Don't have an account?<a href="/Basic_Login_SignUp_Page/SignUp">Register</a>
+              Don't have an account?<a href="/signup">Register</a>
             </p>
           </div>
           <div className="back">
-          <a href="/Basic_Login_SignUp_Page/">Back to Home</a>
+          <a href="/">Back to Home</a>
         </div>
         </form>
       </div>
